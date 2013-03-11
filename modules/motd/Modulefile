@@ -1,4 +1,4 @@
-name 'tvasile-puppet-motd'
+name 'tvasile-motd'
 version '1.0.1'
 
 author 'tvasile'

@@ -1,5 +1,5 @@
 {
-  "name": "tvasile-puppet-motd",
+  "name": "tvasile-motd",
   "author": "tvasile",
   "description": "manages /etc/motd",
   "license": "",
@@ -8,13 +8,13 @@
   "summary": "Module for custom motd using template",
   "version": "1.0.1",
   "checksums": {
-    "Modulefile": "cfb920801ac3e41c056d5e92115331fa",
-    "README.md": "93a4f4f76cebe6b2c4e039ba7a128acd",
-    "manifests\\init.pp": "e81a0032efc454b1b66eb36942762607",
-    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
-    "spec\\spec_helper.rb": "78e087166bc7e52c6745d1af12035106",
-    "templates\\motd.erb": "04b63de6136e1844f71a0cc3f6b3e867",
-    "tests\\init.pp": "5086992bfbe4109aef08a6dc91736250"
+    "Modulefile": "b93e963a748c44cffc91d898330644e7",
+    "README.md": "6edf60b5a98e6e041b704e4256b9a6f0",
+    "manifests\\init.pp": "bd9730c6b807ea6634611c26ec4a32e8",
+    "spec\\spec.opts": "eb547b31184006017b3f6d6e2f1bbc12",
+    "spec\\spec_helper.rb": "66642839037952e89882be783f1b3858",
+    "templates\\motd.erb": "e9d3dbc1cd8a38f8c6dcc82c1ff277ad",
+    "tests\\init.pp": "ac9b04cecd454f935eb8e4c8b628137e"
   },
   "dependencies": []
 }
