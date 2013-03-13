@@ -1,5 +1,5 @@
 class sudo {
-   
+  if $::kernel == 'Linux' {   
     package { sudo: ensure => latest }
    
     file { "/etc/sudoers":
@@ -9,4 +9,5 @@ class sudo {
 	source  => "puppet:///modules/sudo/sudoers",
         require => Package["sudo"],
     }
+  }
 }
